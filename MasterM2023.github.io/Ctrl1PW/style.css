@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(255, 253, 250);
+
+}
+header {
+    color:rgb(200, 176, 222);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    color:rgb(200, 176, 222) 
+}
+
+p {
+    color: rgb(196, 185, 185);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    padding: 10px;
+    border: 5px solid rgb(239, 206, 206);
+    margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(255, 253, 250);
+    
+    }
+    header {
+        color:rgb(156, 145, 166);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    footer {
+        color:rgb(162, 150, 174) 
+    }
+    
+    p {
+        color: rgb(214, 176, 176);
+        font-family: Arial, Helvetica, sans-serif;
+        width: 400px;
+        padding: 10px;
+        border: 5px solid rgb(211, 202, 202);
+        margin: 20px;
+    }
+}
